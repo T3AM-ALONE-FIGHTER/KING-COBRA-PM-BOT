@@ -14,4 +14,4 @@ async def alibe(event):
         "• 𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔 ☞ [「ᴅɪᴘᴇsʜ」❤️🥀](t.me/DIPESH_XD)\n\n"
     )
   pm_caption += f"• 𝘾𝙍𝙀𝘼𝙏𝙊𝙍 ☞ [「ᴅɪᴘᴇsʜ」❤️🥀](t.me/DIPESH_XD)\n"
-  await Dipesh.send_file(event. chat_id, file=BANG_PIC, captions=pm_caption, buttons=but, link_preview=False)
+  await Dipesh.send_file(event. chat_id, file=DIPESH_PIC, captions=pm_caption, buttons=but, link_preview=False)
