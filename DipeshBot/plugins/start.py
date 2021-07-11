@@ -10,7 +10,7 @@ async def start(event):
                                   caption="ＨＥＬＬＯ  ＶＭＲＯ!!\n𝙸𝙼 𝙿𝙴𝚁𝚂𝙾𝙽𝙰𝙻 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝙾𝙵 @DIPESH_XD"
                                   buttons=[
                                       (Button.inline(
-                                          "plugins >>",
+                                          "ᴘʟᴜɢɪɴs",
                                           data="mhelp"))]
                                   )
 
