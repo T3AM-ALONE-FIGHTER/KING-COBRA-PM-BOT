@@ -1,0 +1,3 @@
+python-decouple
+telethon 
+dipeshxd==0.0.2

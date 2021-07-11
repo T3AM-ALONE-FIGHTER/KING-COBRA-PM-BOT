@@ -1,0 +1,33 @@
+{
+    "name": "DipeshBot",
+    "description": "Simple basic code for a telegram bot in Telethon.",
+    "logo": "",
+    "keywords": [
+        "telegram",
+        "telethon",
+        "telegram-bot",
+        "botzhub"
+    ],
+    "repository": "https://github.com/theshashankk/TelethonBot",
+    "website": "https://github.com/theshashankk/TelethonBot",
+    "success_url": "https://github.com/theshashankk/TelethonBot",
+    "env": {
+        "API_HASH": {
+            "description": "You API HASH from my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "You API ID from my.telegram.org",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
