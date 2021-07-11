@@ -1,11 +1,11 @@
 """
 
-from .. import BotzHub
+from .. import Dipesh
 from telethon import events
 from telethon.utils import pack_bot_file_id
 
 
-@BotzHub.on(events.NewMessage(pattern="^/id"))
+@Dipesh.on(events.NewMessage(pattern="^/id"))
 async def _(event):
     if event.reply_to_msg_id:
         await event.get_input_chat()
