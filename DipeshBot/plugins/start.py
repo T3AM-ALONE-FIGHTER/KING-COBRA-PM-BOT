@@ -7,13 +7,13 @@ DIPESH_PIC = "https://telegra.ph/file/40bda831eb7241fe978d1.jpg"
 async def start(event):
     await Dipesh.send_file(event.chat_id,
                                   DIPESH_PIC,
-                                  caption="ＨＥＬＬＯ  ＶＭＲＯ!!\n𝙸𝙼 𝙿𝙴𝚁𝚂𝙾𝙽𝙰𝙻 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝙾𝙵 @DIPESH_XD"
+                                  caption="ＨＥＬＬＯ  ＶＭＲＯ!!\n𝙸𝙼 𝙿𝙴𝚁𝚂𝙾𝙽𝙰𝙻 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝙾𝙵 @DIPESH_XD",
                                   buttons=[
-                                      [Button.inline(
-                                          "ᴘʟᴜɢɪɴs",
+                                      (Button.inline(
+                                          "plugins >>",
                                           data="mhelp"))]
                                   )
-                             
+
 @Dipesh.on(events.callbackquery.CallbackQuery(data="creator"))
 async def creator(event):
     await event.edit(event.chat_id, "𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙼𝙰𝚂𝚃𝙴𝚁 𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴  @DIPESH_XD", show_alert=True)
@@ -23,16 +23,16 @@ async def creator(event):
 
 @Dipesh.on(events.callbackquery.CallbackQuery(data="mhelp"))
 async def ommmmk(event):
-    await event.edit("ʜᴇʟᴘ ᴍᴇɴᴜ",
+    await event.edit("HELP MENU",
                     buttons=[
-                        [Button.inline("ᴍᴀsᴛᴇʀ ᴛᴏᴏʟs", data="ots")],
-                        [Button.inline("ᴛᴏᴏʟs", data="mhelpk")]
+                        [Button.inline("Master tool >>", data="ots")],
+                        [Button.inline("tools", data="mhelpk")]
                     ])
                      
 @Dipesh.on(events.callbackquery.CallbackQuery(data="ots"))
 async def oppppppppp(event):
-    await event.edit("•/sed for sed lyf.\n•/stop to stop sed lyf.\n•/alive to check bot is alive or not.")
+    await event.edit("•/sed to enter sed lyf.\n•/stop to leave sed lyf.\n•/alive to check bot is alive or not.\n•/repo to get source code of this bot.")
     
 @Dipesh.on(events.callbackquery.CallbackQuery(data="mhelpk"))
 async def oooooookk(event):
-    await event.edit("ᴊᴏɪɴ @AboutDipesh")
+    await event.edit("BHAJ YAAR TUM GAND MARAO")
