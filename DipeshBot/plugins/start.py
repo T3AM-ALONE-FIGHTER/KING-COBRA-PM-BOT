@@ -9,7 +9,7 @@ async def start(event):
                                   DIPESH_PIC,
                                   caption="ＨＥＬＬＯ  ＶＭＲＯ!!\n𝙸𝙼 𝙿𝙴𝚁𝚂𝙾𝙽𝙰𝙻 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝙾𝙵 @DIPESH_XD"
                                   buttons=[
-                                      (Button.inline(
+                                      [Button.inline(
                                           "ᴘʟᴜɢɪɴs",
                                           data="mhelp"))]
                                   )
