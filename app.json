@@ -6,11 +6,11 @@
         "telegram",
         "telethon",
         "telegram-bot",
-        "botzhub"
+        "Dipesh"
     ],
-    "repository": "https://github.com/theshashankk/TelethonBot",
-    "website": "https://github.com/theshashankk/TelethonBot",
-    "success_url": "https://github.com/theshashankk/TelethonBot",
+    "repository": "https://github.com/itzdipesh/TelethonBot",
+    "website": "https://github.com/itzdipesh/DIPESH-PM-BOT",
+    "success_url": "https://github.com/itzdipesh/DIPESH-PM-BOT",
     "env": {
         "API_HASH": {
             "description": "You API HASH from my.telegram.org",
