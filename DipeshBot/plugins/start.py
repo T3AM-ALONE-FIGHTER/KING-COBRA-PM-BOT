@@ -9,11 +9,11 @@ async def start(event):
                                   DIPESH_PIC,
                                   caption="ＨＥＬＬＯ  ＶＭＲＯ!!\n𝙸𝙼 𝙿𝙴𝚁𝚂𝙾𝙽𝙰𝙻 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝙾𝙵 @DIPESH_XD"
                                   buttons=[
-                                      (Button.inline("ᴘʟᴜɢɪɴs",data="mhelp"))]
-                                          
-                                          
+                                      (Button.inline(
+                                          "ᴘʟᴜɢɪɴs",
+                                          data="mhelp"))]
                                   )
-
+                             
 @Dipesh.on(events.callbackquery.CallbackQuery(data="creator"))
 async def creator(event):
     await event.edit(event.chat_id, "𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙼𝙰𝚂𝚃𝙴𝚁 𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴  @DIPESH_XD", show_alert=True)
