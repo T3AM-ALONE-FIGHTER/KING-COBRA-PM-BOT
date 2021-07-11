@@ -3,3 +3,4 @@ telethon
 Pyrogram
 youtube-dl
 youtube_search
+aiohttp>=2.2.5
