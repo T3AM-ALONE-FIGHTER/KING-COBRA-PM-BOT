@@ -7,7 +7,7 @@ DIPESH_PIC = "https://telegra.ph/file/40bda831eb7241fe978d1.jpg"
 async def start(event):
     await Dipesh.send_file(event.chat_id,
                                   DIPESH_PIC,
-                                  caption="ＨＥＬＬＯ  ＶＭＲＯ!!\n𝙸𝙼 𝙿𝙴𝚁𝚂𝙾𝙽𝙰𝙻 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝙾𝙵 @DIPESH_XD")
+                                  caption="ＨＥＬＬＯ  ＶＭＲＯ!!\n𝙸𝙼 𝙿𝙴𝚁𝚂𝙾𝙽𝙰𝙻 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝙾𝙵 @DIPESH_XD"
                                   buttons=[
                                       (Button.inline(
                                           "plugins >>",
