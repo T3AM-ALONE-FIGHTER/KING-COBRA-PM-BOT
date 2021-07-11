@@ -7,7 +7,7 @@ DIPESH_PIC = "https://telegra.ph/file/40bda831eb7241fe978d1.jpg"
 async def start(event):
     await Dipesh.send_file(event.chat_id,
                                   DIPESH_PIC,
-                                  caption="ＨＥＬＬＯ  ＶＭＲＯ!!\n𝙸𝙼 𝙿𝙴𝚁𝚂𝙾𝙽𝙰𝙻 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝙾𝙵 [∂ιρєѕн [ 🇨🇦 ] #𝘽𝙇𝘼𝘾𝙆𝙇𝙄𝙎𝙏](https://t.me/DIPESH_XD)")
+                                  caption="ＨＥＬＬＯ  ＶＭＲＯ!!\n𝙸𝙼 𝙿𝙴𝚁𝚂𝙾𝙽𝙰𝙻 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝙾𝙵 @DIPESH_XD")
                                   buttons=[
                                       (Button.inline(
                                           "plugins >>",
@@ -16,7 +16,7 @@ async def start(event):
 
 @Dipesh.on(events.callbackquery.CallbackQuery(data="creator"))
 async def creator(event):
-    await event.edit(event.chat_id, "𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙼𝙰𝚂𝚃𝙴𝚁 𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴  [∂ιρєѕн [ 🇨🇦 ] #𝘽𝙇𝘼𝘾𝙆𝙇𝙄𝙎𝙏](https://t.me/DIPESH_XD)", show_alert=True)
+    await event.edit(event.chat_id, "𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙼𝙰𝚂𝚃𝙴𝚁 𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴  @DIPESH_XD", show_alert=True)
 
 ########################################################################################################################################
 
@@ -35,4 +35,4 @@ async def oppppppppp(event):
     
 @Dipesh.on(events.callbackquery.CallbackQuery(data="mhelpk"))
 async def oooooookk(event):
-    await event.edit("ᴊᴏɪɴ [ᴀʙᴏᴜᴛᴅɪᴘᴇsʜ](https://t.meAboutDipesh)")
+    await event.edit("ᴊᴏɪɴ @AboutDipesh")
