@@ -1,7 +1,7 @@
 from .. import Dipesh
 from telethon import events, Button, client
 
-DIPESH_USER = [1801571739]
+DIPESH_USER = [1870796965]
 
 @Dipesh.on(
     events.NewMessage(pattern="^/add ?(.*)", func=lambda e: e.sender_id in DIPESH_USER)
@@ -12,7 +12,7 @@ async def _(event):
   await Dipesh.send_message(event.chat_id, f"ᴅᴏɴᴇ ʙɪᴛᴄʜ{text}")
   await event.reply("ғᴜᴄᴋ ᴏғ ʙɪᴛᴄʜ",
                     buttons=[
-                        [Button.url("𝙼𝚢 𝙾𝚠𝚗𝚎𝚛", "t.me/DIPESH_XD")]
+                        [Button.url("𝙼𝚢 𝙾𝚠𝚗𝚎𝚛", "t.me/BLACK_MAFIA_OWNER")]
                     ])
 
     
@@ -31,6 +31,6 @@ async def start_all(event):
 ###################################################
 @Dipesh.on(events.callbackquery.CallbackQuery(data="creator"))
 async def creator(event):
-    await event.edit(event.chat_id, "𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙼𝙰𝚂𝚃𝙴𝚁 𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴  @DIPESH_XD")
+    await event.edit(event.chat_id, "𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙼𝙰𝚂𝚃𝙴𝚁 𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴  @BLACK_MAFIA_OWNER")
 
 #######################################################################################################################################
