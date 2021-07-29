@@ -8,7 +8,7 @@
         "telegram-bot",
         "Dipesh"
     ],
-    "repository": "https://github.com/itzdipesh/TelethonBot",
+    "repository":",
     "website": "https://github.com/T3AM-ALONE-FIGHTER/KING-COBRA-PM-BOT",
     "success_url": "https://github.com/T3AM-ALONE-FIGHTER/KING-COBRA-PM-BOT",
     "env": {
