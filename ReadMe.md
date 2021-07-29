@@ -12,4 +12,4 @@ Fork and add your plugins to [TelethonBot/plugins](./TelethonBot/plugins), and, 
 
 # Credits
 - [Telethon.](https://github.com/LonamiWebs/Telethon)
-- [Me.](https://t.me/xditya)
+- [Me.](https://t.me/BLACK_MAFIA_OWNER)
